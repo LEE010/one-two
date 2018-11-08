@@ -10,3 +10,4 @@ cmd 혹은 터미널에서
 ~~~
 mysql -h mydbinstance.ckdek3e36kwm.ap-northeast-2.rds.amazonaws.com -P 3306 -u "계획서 이메일에 사용된 ID" -p
 ~~~
+<hr>
