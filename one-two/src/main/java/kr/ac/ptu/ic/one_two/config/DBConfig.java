@@ -15,11 +15,11 @@ import org.springframework.transaction.annotation.TransactionManagementConfigure
 public class DBConfig implements TransactionManagementConfigurer {
 	private String driverClassName = "com.mysql.jdbc.Driver";
 
-	private String url = "jdbc:mysql://localhost:3306/onetwodb?useUnicode=true&characterEncoding=utf8";
+	private String url = "jdbc:mysql://mydbinstance.ckdek3e36kwm.ap-northeast-2.rds.amazonaws.com:3306/onetwodb?useUnicode=true&characterEncoding=utf8";
+//	등록된 자신의 id 입력!
+	private String username = "";
 
-	private String username = "onetwo";
-
-	private String password = "onetwotwo123!@#";
+	private String password = "";
 
 	@Bean
 	public DataSource dataSource() {
